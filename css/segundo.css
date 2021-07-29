@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-sizing: border-box;
+}
+
+header{
+    background-color: darkblue;
+    height: 150px;
+/* Vamos mudar a forma que a caixa esta posicionada na tela */
+
+/* position: fixed; */
+width: 100%;
+padding-left: 20px;
+}
+
+div{
+    width: 20%;
+    float: left;
+    margin: 5px;
+    height: 300px;
+
+}
+
+#um{
+    background-color: darkviolet;
+}
+
+#dois{
+    background-color: darkturquoise;
+}
+
+#tres{
+    background-color: darkred;
+}
+
+#quatro{
+    background-color: darkorange;
+}
+
+
+
+/* Aplicação de midiaquery(consulta dos formatos:tela(screen); imprimir(print) com breakpoint(pontos de quebra) */
+
+@media screen and (max-device-width: 768px) {
+    
+    header{
+        background-color: chartreuse;
+    }
+    div{
+        width: 48%;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-device-width: 1000px) {
+    width: 20%;   
+}

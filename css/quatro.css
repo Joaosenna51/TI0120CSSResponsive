@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-sizing:border-box;
+}
+
+#main{
+    border: 1px solid black;
+    width: 98%;
+    margin: 10px auto;
+    height: 800px;
+    /*  permitir que o displey se torne flexivel */
+    display: flex;
+
+    /* definir como sera a flexão dos elementos do main */
+    flex-direction: column;
+    }
+
+    #main #um{
+        flex: 1;
+        
+        background-color: aqua;
+    }
+
+    main #dois{
+        flex: 2;
+        background-color: yellowgreen;
+    
+    }
+
+    main #tres{
+        flex: 7;
+        background-color: blue;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main #quatro{
+        flex: 2;
+        background-color: chartreuse;
+    }
+
+    main div{
+        margin: 10px;
+
+    }
+
+    main #tres #foto{
+        flex: 1;
+    }
+
+main #tres #texto{
+    flex: 3;
+}
+
+    main #tres #foto img{
+        width: 100%;
+        height: auto;
+    }
